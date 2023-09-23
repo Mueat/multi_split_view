@@ -465,7 +465,7 @@ class _MultiSplitViewState extends State<MultiSplitView> {
       required Widget child,
       bool last = false}) {
     Positioned positioned = Positioned(
-        key: child.key,
+        // key: child.key,
         top: widget.axis == Axis.horizontal ? 0 : _convert(start, false),
         bottom: widget.axis == Axis.horizontal ? 0 : _convert(end, last),
         left: widget.axis == Axis.horizontal ? _convert(start, false) : 0,
